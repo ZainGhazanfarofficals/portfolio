@@ -42,7 +42,7 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image priority quality={100} src="/giats/front.png" sizes="100%" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} alt="Zain Ghazanfar" />
+      <Image priority quality={100} src="/zain/front.png" sizes="100%" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} alt="Zain Ghazanfar" />
     </div>
   );
 

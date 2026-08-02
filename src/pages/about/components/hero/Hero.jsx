@@ -52,7 +52,7 @@ function Hero() {
       </header>
       <div className={styles.wrapper}>
         <div ref={heroImageRef} className={styles.imageContainer}>
-          <Image priority quality={100} src="/giats/back.webp" sizes="100%" fill alt="Zain Ghazanfar" />
+          <Image priority quality={100} src="/zain/back.webp" sizes="100%" fill alt="Zain Ghazanfar" />
         </div>
       </div>
     </section>
