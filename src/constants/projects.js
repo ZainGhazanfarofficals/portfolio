@@ -137,8 +137,8 @@ const projects = [
     fluidColor: '#0028FF',
     images: [
       {
-        src: '/project3/video.mov',
-        tag: 'video',
+        src: 'WAdrcC938U8',
+        tag: 'youtube',
         isRight: false,
       },
       {
