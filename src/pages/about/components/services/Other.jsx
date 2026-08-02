@@ -21,7 +21,7 @@ const colors = ['#8A2BE2', '#FFFF00', '#DC143C'];
 
 const areEqual = () => true;
 
-const Other = memo(({ setPortals }) => {
+const Other = memo(function Other({ setPortals }) {
   const [isLoading] = useStore(useShallow((state) => [state.isLoading]));
   const isMobile = useIsMobile();
 

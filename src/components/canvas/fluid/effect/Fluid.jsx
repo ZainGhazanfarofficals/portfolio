@@ -3,7 +3,7 @@ import { forwardRef, useMemo } from 'react';
 import FluidEffect from '@src/components/canvas/fluid/effect/FluidEffect';
 import { useIsomorphicLayoutEffect } from '@src/hooks/useIsomorphicLayoutEffect';
 
-const FluidEffectWrapper = forwardRef((props, ref) => {
+const FluidEffectWrapper = forwardRef(function FluidEffectWrapper(props, ref) {
   const effect = useMemo(() => new FluidEffect(props), [JSON.stringify(props)]);
 
   useIsomorphicLayoutEffect(
