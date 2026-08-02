@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zainghazanfar.vercel.app/
+
+# Sitemaps
+Sitemap: https://zainghazanfar.vercel.app/sitemap.xml
