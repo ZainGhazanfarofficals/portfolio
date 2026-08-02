@@ -29,6 +29,7 @@ function ProjectImages({ project }) {
               src={`https://www.youtube.com/embed/${src}?autoplay=1&mute=1&loop=1&playlist=${src}&controls=0&modestbranding=1&rel=0&playsinline=1&disablekb=1&iv_load_policy=3`}
               title={`${title}-video-${index}`}
               allow="autoplay; encrypted-media"
+              referrerPolicy="strict-origin-when-cross-origin"
               frameBorder="0"
             />
           </div>
