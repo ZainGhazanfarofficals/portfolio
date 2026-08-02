@@ -22,6 +22,18 @@ function ProjectImages({ project }) {
           </div>
         );
       }
+      if (tag === 'youtube') {
+        return (
+          <div className={styles.videoContainer}>
+            <iframe
+              src={`https://www.youtube.com/embed/${src}?autoplay=1&mute=1&loop=1&playlist=${src}&controls=0&modestbranding=1&rel=0&playsinline=1&disablekb=1&iv_load_policy=3`}
+              title={`${title}-video-${index}`}
+              allow="autoplay; encrypted-media"
+              frameBorder="0"
+            />
+          </div>
+        );
+      }
       if (tag === 'small') {
         return (
           <div style={{ gridColumn: !isMobile ? (!isRight ? '1 / 9' : ' 9 / 17') : !isRight ? '1 / 4' : ' 4 / 7' }} className={styles.imageContainer}>

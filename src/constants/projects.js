@@ -16,8 +16,8 @@ const projects = [
     fluidColor: '#FF573E',
     images: [
       {
-        src: '/project1/video.mov',
-        tag: 'video',
+        src: 'nRRt91ehJxA',
+        tag: 'youtube',
         isRight: false,
       },
       {
@@ -94,8 +94,8 @@ const projects = [
     fluidColor: '#E8FFC8',
     images: [
       {
-        src: '/project2/video.mov',
-        tag: 'video',
+        src: 'Z9Bu0Vz1FF0',
+        tag: 'youtube',
         isRight: true,
       },
       {
